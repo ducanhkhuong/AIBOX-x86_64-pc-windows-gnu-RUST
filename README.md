@@ -15,11 +15,18 @@ sudo apt install mingw-w64
 ```
 cargo build --release --target x86_64-pc-windows-gnu
 ```
-## 4.About
+## 4.Copy file release sang môi trường Windows
+
+```
+cp /Gemini-x86_64-pc-windows-gnu-RUST/target/x86_64-pc-windows-gnu/release/Gemini.exe /mnt/c
+```
+
+## 5.About
 ```
 Author : ducanhkhuong
 Email  : duca3774@gmail.com
 ```
-## 5.Demo AI-Gemini-box
-![image](https://github.com/user-attachments/assets/00c96e51-dd44-4604-b3ce-6f9d92883b44)
+## 6.Demo AIBOX
+![image](https://github.com/user-attachments/assets/a13d1fe3-2611-4cc8-9aa4-5733b91d0592)
+
 
