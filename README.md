@@ -11,9 +11,9 @@ Ubuntu Linux
 sudo apt install mingw-w64
 
 ```
-## 3.Sửa key in main.rs
+## 3.Sửa apikey in src/main.rs
 ```
-key=APIKEYGEMINI
+index row:54 ( key=APIKEYGEMINI )
 APIKEYGEMINI : thay bằng key của bạn 
 ```
 ## 4.Build Rust project cho môi trường Windows
