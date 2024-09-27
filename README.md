@@ -20,3 +20,6 @@ cargo build --release --target x86_64-pc-windows-gnu
 Author : ducanhkhuong
 Email  : duca3774@gmail.com
 ```
+## 5.Demo AI-Gemini-box
+![image](https://github.com/user-attachments/assets/00c96e51-dd44-4604-b3ce-6f9d92883b44)
+
