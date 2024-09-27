@@ -9,24 +9,30 @@ rustup target add x86_64-pc-windows-gnu
 Ubuntu Linux
 ```
 sudo apt install mingw-w64
+
 ```
-## 3.Build Rust project cho môi trường Windows
+## 3.Sửa key in main.rs
+```
+key=APIKEYGEMINI
+APIKEYGEMINI : thay bằng key của bạn 
+```
+## 4.Build Rust project cho môi trường Windows
 
 ```
 cargo build --release --target x86_64-pc-windows-gnu
 ```
-## 4.Copy file release sang môi trường Windows
+## 5.Copy file release sang môi trường Windows
 
 ```
 cp /AIBOX-x86_64-pc-windows-gnu-RUST/target/x86_64-pc-windows-gnu/release/Gemini.exe /mnt/c
 ```
 
-## 5.About
+## 6.About
 ```
 Author : ducanhkhuong
 Email  : duca3774@gmail.com
 ```
-## 6.Demo AIBOX
+## 7.Demo AIBOX
 ![image](https://github.com/user-attachments/assets/a13d1fe3-2611-4cc8-9aa4-5733b91d0592)
 
 
