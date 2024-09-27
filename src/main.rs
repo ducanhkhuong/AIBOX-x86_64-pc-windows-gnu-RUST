@@ -77,18 +77,19 @@ async fn get_answer(client: &Client, question: &str) -> Result<String, Box<dyn E
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
     let client = Client::new();
-    println!(r"      _        _    ____      ___    __    __      ");
+    println!("\n");
+    println!(r"      _        _    ____      ___    __    __    ");
     println!(r"     / \\     | |  | |__)    / _ \\  \\\\ / /    ");
     println!(r"    / _ \\    | |  |  _ \\  | | | |   \\ V /     ");
     println!(r"   / ___ \\   | |  | |_) |  | |_| |   / . \\     ");
     println!(r"  /_/   \\_\  \_|  |____/   \\___/   /_/ \\\\    ");
     
-    println!("{}","[GEMINI]---> : Wellcome AIBOX . . .");
-    println!("{}","[GEMINI]---> : AIBOX version 0.1");
+    println!("{}","\n\nWellcome to AIBOX . . .\nAuthor  : ducanhkhuong\nVersion : 0.1\nRelease : 26/09/2024\n");
 
 
     loop {
-        print!("{}","\n[DUCANHKHUONG AKA KAI]---> : ");
+        print!("{}","\n[AIBOX]---> : Đây là AIBOX , tôi có thể giúp gì ?");
+        print!("{}","\n[DUCANHKHUONG]---> : ");
         io::stdout().flush()?;
 
         let mut question = String::new();
@@ -101,7 +102,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
 
         match get_answer(&client, question).await {
             Ok(answer) => {
-                println!("{} : {}","\n[GEMINI]-->", answer);
+                println!("{} : {}","\n[AIBOX]-->", answer);
             },
             Err(e) => println!("{} : {}","[ERROR] --->", e),
         }
