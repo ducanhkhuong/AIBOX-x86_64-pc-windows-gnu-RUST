@@ -51,7 +51,7 @@ async fn get_answer(client: &Client, question: &str) -> Result<String, Box<dyn E
     };
 
     let response = client
-        .post("https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCNwWVzv-CAsEThQW1ekD9smftIWR7T5oc") 
+        .post("https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=APIKEYGEMINI") 
         .header("Content-Type", "application/json")
         .json(&request_body)
         .send()
