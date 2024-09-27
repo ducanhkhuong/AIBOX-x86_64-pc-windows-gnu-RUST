@@ -20,4 +20,3 @@ cargo build --release --target x86_64-pc-windows-gnu
 Author : ducanhkhuong
 Email  : duca3774@gmail.com
 ```
-[![Mô tả video](E:\IMG\a.jpg)](E:\IMG\thongbao.mp4)
