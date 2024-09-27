@@ -18,7 +18,7 @@ cargo build --release --target x86_64-pc-windows-gnu
 ## 4.Copy file release sang môi trường Windows
 
 ```
-cp /Gemini-x86_64-pc-windows-gnu-RUST/target/x86_64-pc-windows-gnu/release/Gemini.exe /mnt/c
+cp /AIBOX-x86_64-pc-windows-gnu-RUST/target/x86_64-pc-windows-gnu/release/Gemini.exe /mnt/c
 ```
 
 ## 5.About
