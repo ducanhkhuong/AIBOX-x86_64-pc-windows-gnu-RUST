@@ -13,6 +13,7 @@ sudo apt install mingw-w64
 ```
 ## 3.Sửa apikey in src/main.rs
 ```
+Vào trang web : https://ai.google.dev/ để tạo API key Gemini
 index row:54 ( key=APIKEYGEMINI )
 APIKEYGEMINI : thay bằng key của bạn 
 ```
