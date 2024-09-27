@@ -77,7 +77,14 @@ async fn get_answer(client: &Client, question: &str) -> Result<String, Box<dyn E
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
     let client = Client::new();
-    println!("{}","Hello [DUCANHKHUONG AKA KAI] , Wellcome AI box . . .");
+    println!(r"      _        _    ____      ___    __    __      ");
+    println!(r"     / \\     | |  | |__)    / _ \\  \\\\ / /    ");
+    println!(r"    / _ \\    | |  |  _ \\  | | | |   \\ V /     ");
+    println!(r"   / ___ \\   | |  | |_) |  | |_| |   / . \\     ");
+    println!(r"  /_/   \\_\  \_|  |____/   \\___/   /_/ \\\\    ");
+    
+    println!("{}","[GEMINI]---> : Wellcome AIBOX . . .");
+    println!("{}","[GEMINI]---> : AIBOX version 0.1");
 
 
     loop {
